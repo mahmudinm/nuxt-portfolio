@@ -1,10 +1,18 @@
 <template>
   <!-- Hero -->
-  <section class="container my-5">
+  <section class="container my-1">
     <div class="row">
+      <div class="col-md-12">
+        <div class="ml-md-5">
+          <span class="rainbow">A</span>
+          <span class="rainbow">B</span>
+          <span class="rainbow">O</span>
+          <span class="rainbow">U</span>
+          <span class="rainbow">T</span>
+        </div>
+      </div>
       <div class="col-md-4">
-        <!-- <img src="~/assets/foto.JPG" alt=""> -->
-        <img src="~/assets/foto.png" class="rounded mx-auto d-block grayscle mt-3" />
+        <img src="~/assets/foto.png" class="rounded mx-auto d-block mt-3" />
       </div>
       <div class="col-md-8 mt-5">
         <h2 class="mb-4">Mahmudin Muttaqin</h2>

@@ -1,9 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-// Navbar Custom
 
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+.rainbow {
+  font-size: 94px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: -15px;
+  opacity: 0.9;
+}
+
+.rainbow:nth-child(1) {
+  color: #ef5350;
+}
+
+.rainbow:nth-child(2) {
+  color: #ab47bc;
+}
+
+.rainbow:nth-child(3) {
+  color: #651fff;
+}
+
+.rainbow:nth-child(4) {
+  color: #2196f3;
+}
+
+.rainbow:nth-child(5) {
+  color: #3949ab;
+}
+
+.rainbow:nth-child(6) {
+  color: #2196f3;
+}
+
+.rainbow:nth-child(7) {
+  color: #4caf50;
+}
+
+.rainbow:nth-child(8) {
+  color: #ffc107;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .rainbow {
+    font-size: 64px;
+  }
+}
+
+
+// Navbar Custom
 
 .navbar {
     background-color: white;
@@ -55,7 +104,38 @@ body {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.underline:hover:before, .underline:focus:before, .underline:active:before {
+.underline:hover:before {
+  right: 0;
+}
+
+.nuxt-link-exact-active {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.nuxt-link-exact-active:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #0cebeb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nuxt-link-exact-active:before, .nuxt-link-exact-active:focus:before, .nuxt-link-exact-active:active:before {
   right: 0;
 }
 
@@ -100,4 +180,33 @@ body {
     width: 100%;
     font-size: 14px;
   }
+}
+
+// contact
+.list-inline-item--contact {
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.list-inline-item--contact:last-child {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 1319px) {
+  .list-inline-item--contact {
+    padding-right: 0px;
+  }
+}
+
+// Projects
+.carousel-indicators li {
+  background-color: #b1b1b1;
+}
+.carousel-indicators .active {
+  background-color: #272727;
+}
+
+.project__item {
+  box-shadow: 3px 1px 5px 0px #e6e6e6;
 }

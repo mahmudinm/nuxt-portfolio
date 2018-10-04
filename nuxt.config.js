@@ -3,10 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   modules: [
-    'bootstrap-vue/nuxt',
-
-    // Or if you have custom bootstrap CSS...
-    ['bootstrap-vue/nuxt', { css: false }],
+    // 'jquery',
   ],
   head: {
     title: 'nuxt-test',
