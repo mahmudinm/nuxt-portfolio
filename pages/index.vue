@@ -35,7 +35,6 @@
               <span class="badge badge-light">MYSQL</span> 
               <span class="badge badge-info">Adobe Photoshop</span>            
             </div> 
-
           </div>
         </p>
       </div>

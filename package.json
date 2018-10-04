@@ -13,12 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "jquery": "^3.3.1",
     "node-sass": "^4.9.3",
     "nuxt": "^2.0.0",
-    "sass-loader": "^7.1.0",
-    "vue-slick": "^1.1.13"
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
