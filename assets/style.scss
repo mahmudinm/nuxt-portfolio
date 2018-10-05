@@ -55,7 +55,7 @@ body {
 // Navbar Custom
 
 .navbar {
-    background-color: white;
+    background-color: transparent;
     .nav {
       &-item {
         padding: 0 .5rem;
@@ -137,6 +137,12 @@ body {
 }
 .nuxt-link-exact-active:before, .nuxt-link-exact-active:focus:before, .nuxt-link-exact-active:active:before {
   right: 0;
+}
+
+.background-hero {
+  background: url('/_nuxt/assets/foto.png');
+  width: 100%;
+  height: auto;
 }
 
 // Edukasi

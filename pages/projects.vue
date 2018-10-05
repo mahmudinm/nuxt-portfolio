@@ -1,5 +1,6 @@
 <template>
   <section class="container">
+    <div class="background-hero"></div>
     <div class="row">
       <div class="col-md-12">
         <div class="ml-md-5">
