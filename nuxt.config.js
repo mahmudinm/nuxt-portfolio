@@ -6,7 +6,7 @@ module.exports = {
     // 'jquery',
   ],
   head: {
-    title: 'nuxt-test',
+    title: 'Personal & Porfolio Web Mahmudinm',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
