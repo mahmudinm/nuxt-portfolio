@@ -107,6 +107,55 @@
         </div>      
       </div>
 
+
+      <div class="col-md-6 my-3 project__item">
+        <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="~/assets/wordpress-windy-theme/windy.png" alt="First slide">
+            </div>
+          </div>
+        </div>  
+        <div class="text-center mt-3">
+          <a href="https://github.com/mahmudinm/windy" target="_blank">
+            <h3>Wordpress Theme windy</h3>
+          </a>
+          <p>Tech : <b>Wordpress, Bootstrap 4, Jquery, Underscores</b> </p>
+        </div>      
+      </div>
+
+      <div class="col-md-6 my-3 project__item">
+        <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div  class="carousel-item active">
+              <!-- <img style="max-width: 250px; margin: auto;" class=""  src="~/assets/client-android-inventory/1.png" alt="First slide"> -->
+              <img class="d-block mx-auto" style="max-width: 250px;" src="~/assets/client-android-inventory/1.png" alt="First slide">
+              <!-- <img class="d-block mx-auto" src="http://placehold.it/600x400" /> -->
+            </div>
+            <div  class="carousel-item">
+              <img class="d-block mx-auto" style="max-width: 250px;" src="~/assets/client-android-inventory/2.png" alt="Second slide">
+            </div>
+            <div  class="carousel-item">
+              <img class="d-block mx-auto" style="max-width: 250px;" src="~/assets/client-android-inventory/3.png" alt="Third slide">
+            </div>
+          </div>
+        </div>  
+        <div class="text-center mt-3">
+          <a href="https://github.com/mahmudinm/client-android-inventory" target="_blank">
+            <h3>Client Android Inventory</h3>
+          </a>
+          <p>Tech : <b>Android, Retrofit2, RxJava, Glide, Material Dialog, MVP</b> </p>
+        </div>      
+      </div>
+
     </div>
   </section>
 </template>

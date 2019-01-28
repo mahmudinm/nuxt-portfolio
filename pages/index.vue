@@ -34,7 +34,7 @@
                 <span class="badge badge-dark">Jquery</span> 
                 <span class="badge badge-primary">Wordpress</span> 
                 <span class="badge badge-light">MYSQL</span> 
-                <span class="badge badge-info">Adobe Photoshop</span>            
+                <span class="badge badge-info">Android</span>     
               </div> 
             </div>
           </p>
