@@ -67,9 +67,9 @@
 
       <div class="col-md-6 my-3 project__item">
         <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
-          <ol class="carousel-indicators">
+<!--           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
-          </ol>
+          </ol> -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="~/assets/laravel-form-daerah/example.gif" alt="First slide">
@@ -110,9 +110,9 @@
 
       <div class="col-md-6 my-3 project__item">
         <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel" data-interval="false">
-          <ol class="carousel-indicators">
+<!--           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
-          </ol>
+          </ol> -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="~/assets/wordpress-windy-theme/windy.png" alt="First slide">
@@ -153,6 +153,45 @@
             <h3>Client Android Inventory</h3>
           </a>
           <p>Tech : <b>Android, Retrofit2, RxJava, Glide, Material Dialog, MVP</b> </p>
+        </div>      
+      </div>
+
+      <div class="col-md-6 my-3 project__item">
+        <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel" data-interval="false">
+<!--           <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+          </ol> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="~/assets/accel/1.png" alt="First slide">
+            </div>
+          </div>
+        </div>  
+        <div class="text-center mt-3">
+          <a href="https://github.com/mahmudinm/template-bootstrap-company-accel" target="_blank">
+            <h3>Accel - Template Bootstrap Company Profile</h3>
+          </a>
+          <p>Tech : <b>Bootstrap 3, Jquery, CSS</b> </p>
+        </div>      
+      </div>
+
+
+      <div class="col-md-6 my-3 project__item">
+        <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel" data-interval="false">
+<!--           <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+          </ol> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="~/assets/maii/1.png" alt="First slide">
+            </div>
+          </div>
+        </div>  
+        <div class="text-center mt-3">
+          <a href="https://github.com/mahmudinm/template-bootstrap-portfolio-maii" target="_blank">
+            <h3>Maii - Template Bootstrap Porftolio Profile</h3>
+          </a>
+          <p>Tech : <b>Bootstrap 3, Jquery, CSS</b> </p>
         </div>      
       </div>
 
